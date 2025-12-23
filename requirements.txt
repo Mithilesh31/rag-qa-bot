@@ -1,0 +1,9 @@
+cat > requirements.txt << 'EOF'
+# WORKING versions for Python 3.13
+streamlit==1.38.0
+cohere==5.6.0
+pypdf==3.17.4
+python-dotenv==1.0.0
+numpy==1.26.4  # OLDER but COMPATIBLE version
+pandas==2.2.2
+EOF

@@ -1,0 +1,29 @@
+cat > data/sample.txt << 'EOF'
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines 
+that are programmed to think and learn like humans. The term may also be applied to 
+any machine that exhibits traits associated with a human mind such as learning and 
+problem-solving.
+
+Machine Learning is a subset of AI that enables machines to learn from data without 
+being explicitly programmed. Deep Learning is a further subset of machine learning 
+that uses neural networks with multiple layers.
+
+Applications of AI include:
+1. Natural Language Processing (NLP)
+2. Computer Vision
+3. Robotics
+4. Recommendation Systems
+5. Healthcare diagnostics
+
+Challenges in AI development include:
+- Ethical considerations
+- Bias in algorithms
+- Data privacy concerns
+- Job displacement concerns
+
+Future trends suggest increased integration of AI in everyday life, with advances in 
+explainable AI and AI safety research.
+EOF
+
+# Convert to PDF (requires additional tools, but we'll use txt for now)
+echo "You can use any PDF file for testing. Place it in the data/ folder."
